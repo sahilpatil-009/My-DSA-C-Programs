@@ -13,6 +13,7 @@ void deletion_beginning();
 void deletion_last();
 void display();
 void search();
+
 void main ()
 {
 int choice =0;
