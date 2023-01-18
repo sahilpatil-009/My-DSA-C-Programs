@@ -50,47 +50,47 @@ int main()
 
     switch(ch)
     {
-    case 1:
-        creat_ddl();
-        break;
+        case 1:
+            creat_ddl();
+            break;
 
-    case 2:
-        inser_at_start();
-        break;
+        case 2:
+            inser_at_start();
+            break;
 
-    case 3:
-        insert_at_end();
-        break;
+        case 3:
+            insert_at_end();
+            break;
 
-    case 4:
-        inserti_at_location();
-        break;
-    case 5:
-        insert_after_data();
-        break;
-    case 6:
-        delete_at_start();
-        break;
-    case 7:
-        delete_at_end();
-        break;
-    case 8:
-        delete_at_given_location();
-        break;
-    case 9:
-        delete_node_with_given_data();
-        break;
-    case 10:
-        traversal();
-        break;
+        case 4:
+            inserti_at_location();
+            break;
+        case 5:
+            insert_after_data();
+            break;
+        case 6:
+            delete_at_start();
+            break;
+        case 7:
+            delete_at_end();
+            break;
+        case 8:
+            delete_at_given_location();
+            break;
+        case 9:
+            delete_node_with_given_data();
+            break;
+        case 10:
+            traversal();
+            break;
 
-    case 11:
-        search_given_data();
-        break;
+        case 11:
+            search_given_data();
+            break;
 
-    case 12:
-        return 0;
-    }
+        case 12:
+            return 0;
+        }
 
     }while(ch != 12);
 }
