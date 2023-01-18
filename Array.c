@@ -4,6 +4,7 @@ int main()
     int length;
 
     printf("Enter Length of Array:");
+    
     scanf("%d",&length);
     /*
     int intarr[length];
