@@ -130,6 +130,7 @@ void display()
             printf("%d\n", ptr -> data);
             ptr = ptr -> next;
         }
+        
         printf("%d\n", ptr -> data);
     }
 

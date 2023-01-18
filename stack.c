@@ -10,6 +10,7 @@ int main()
     int top = -1;
     int ele;
     int ch;
+    
     do
     {
         printf("1.Push\n");

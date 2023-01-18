@@ -390,6 +390,7 @@ void traversal()
     temp = head;
     if(head == NULL)
     {
+        
         printf("Linked list is Empty");
     }
     else{

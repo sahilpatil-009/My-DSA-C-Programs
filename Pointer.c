@@ -15,4 +15,5 @@ int main()
     printf("\n*(&b)=%d",*(&b));
     printf("\nb=%d",b);
     printf("\n&b=%d",&b);
+    
 }

@@ -2,14 +2,16 @@
 #include<stdio.h>
 
 void mergesort(int arr[],int lb,int ub)
-{      int mid;
+{      
+    int mid;
         if(lb<ub)
         {
             mid = (lb+ub)/2;
             mergesort(arr,lb,mid);
             mergesort(arr,mid+1,ub);
         }
-combine(arr,lb,mid,ub);
+
+    combine(arr,lb,mid,ub);
 }
 
 void combine(int a[], int lb,int mid,int ub)

@@ -6,9 +6,9 @@ long fact(int );
 int main()
 {
 	int no;
-	scanf(“%d”, &no);
+	scanf(ï¿½%dï¿½, &no);
 	long f = fact(no);
-	printf(“Factorial is %ld”, f);
+	printf(ï¿½Factorial is %ldï¿½, f);
 }
 
 long fact(int n)

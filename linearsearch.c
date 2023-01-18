@@ -5,6 +5,7 @@ int main()
     printf("Enter Length of Array:");
     scanf("%d", &length);
 
+
     int arr[length];
     printf("Enter Elements of Array:\n");
     for(int i = 0;i<length;i++)

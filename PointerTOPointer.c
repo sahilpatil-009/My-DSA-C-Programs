@@ -19,5 +19,6 @@ int main()
     printf("\nint **pptr =%d",**pptr);
     printf("\n&pptr =%d",&pptr);
     printf("\n**(&pptr) =%d",**(&pptr));
+    
     printf("\n***ppptr =%d",***ppptr);
 }

@@ -20,6 +20,7 @@ int main()
 
     printf("Data in Structure is:");
 
+    
     for(int j=0;j<5;j++)
     {
         printf("\nRoll No:%d\t",arr[j].roll_no);

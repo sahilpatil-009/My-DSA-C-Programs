@@ -13,7 +13,7 @@ int main()
 
     sort(a,a+5);
 
-    cout<<"----------------"<<endl;
+    cout<<"-------------------------"<<endl;
     for(int j=0;j<5;j++)
     {
         cout<<a[j]<<endl;

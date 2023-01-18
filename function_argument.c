@@ -17,8 +17,7 @@ void add(int x,int y)
     printf("Addition is:%d",sum);
 }
 
-
-
+/////////////////////////////////////
 /*
 #include<stdio.h>
 

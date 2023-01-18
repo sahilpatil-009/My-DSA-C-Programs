@@ -17,6 +17,7 @@ int main()
         printf("4.Exit\n");
         printf("Enter Your Choice:");
         scanf("%d", &ch);
+        
         switch(ch)
         {
         case 1://Enqueue

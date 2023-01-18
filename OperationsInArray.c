@@ -24,6 +24,7 @@ int main()
         printf("%d \t",arr[j]);
     }
 
+    /////////////////////
     /*Insert at Specific Position
 
     int num,pos;

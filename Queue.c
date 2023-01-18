@@ -14,6 +14,7 @@ int main()
         printf("2.Dequeue\n");
         printf("3.Display\n");
         printf("4.Exit\n");
+        
         printf("Enter Choice:");
         scanf("%d", &ch);
 

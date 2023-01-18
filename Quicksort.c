@@ -13,6 +13,7 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
+    
     printf("\nElements of array are:");
     for(int j=0;j<length;j++)
     {

@@ -19,25 +19,25 @@ int main()
     printf("Enter Your Choice:\n");
     scanf("%d", &ch);
 
-    switch(ch)
-    {
-        case 1:
-            areaofcircle();
-            break;
+        switch(ch)
+        {
+            case 1:
+                areaofcircle();
+                break;
 
-        case 2:
-            areaofrectangle();
-            break;
+            case 2:
+                areaofrectangle();
+                break;
 
-        case 3:
-            areaofsquare();
-            break;
-        case 4:
-            return 0;
-            break;
+            case 3:
+                areaofsquare();
+                break;
+            case 4:
+                return 0;
+                break;
 
-        default : printf("Invalid Input !");
-    }
+            default : printf("Invalid Input !");
+        }
 
     }while(ch != 4);
 }
